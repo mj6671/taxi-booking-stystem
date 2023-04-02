@@ -25,14 +25,14 @@
     </style>
     <body background="https://img.freepik.com/free-vector/street-map-desing-with-catering-sector-pins_23-2147618798.jpg"  style="background-repeat: no-repeat;background-size:cover;">
         <div style="font-size:50px; text-align:center; margin-top:100px;">
-     AIA cab booking 
+     <span id="f"></span> cab booking 
     </div>
     <div  class="a" style="margin-top:150px; margin-left:500px;position: fixed;">
     <from>
     <span style="font-size:30px"><label>FROM:</label>
         <a href="https://www.google.com/maps/@12.94336,80.1701888,12z">
             <button type="button">select location</button></a>
-    <span style="font-size:30px"><label>TO:</label>
+    <span style="font-size:30px"><label>TO</label>
     <a href="https://www.google.com/maps/@12.94336,80.1701888,12z">
     <button type="button">select location</button></a>
     </span></div>
@@ -51,6 +51,10 @@
 </div>
     </div>
     </from>
+    <script>
+        var v=prompt("write the company name:");
+        document.getElementById('f').innerHTML=v
+    </script>
     
     <body>
     </html>
