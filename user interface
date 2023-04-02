@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>
+    <taxi>booking system
+    </title>
+    <head>
+    <style>
+      .a{
+         width:500px;
+         padding-top:10px;
+         padding-left:85px;
+         border:1px solid yellow;
+         background:rgba(255,255,255,0.5);
+    }
+    .d{
+        width:500px;
+        border:1px solid whitesmoke;
+        padding:10px;
+        background:rgba(255, 255,255,0.2);
+       border-top-right-radius:20px;  
+       border-top-left-radius:20px;
+       border-bottom-left-radius:20px;
+       border-bottom-right-radius:20px;  
+    }
+    </style>
+    <body background="https://img.freepik.com/free-vector/street-map-desing-with-catering-sector-pins_23-2147618798.jpg"  style="background-repeat: no-repeat;background-size:cover;">
+        <div style="font-size:50px; text-align:center; margin-top:100px;">
+     AIA cab booking 
+    </div>
+    <div  class="a" style="margin-top:150px; margin-left:500px;position: fixed;">
+    <from>
+    <span style="font-size:30px"><label>FROM:</label>
+        <a href="https://www.google.com/maps/@12.94336,80.1701888,12z">
+            <button type="button">select location</button></a>
+    <span style="font-size:30px"><label>TO:</label>
+    <a href="https://www.google.com/maps/@12.94336,80.1701888,12z">
+    <button type="button">select location</button></a>
+    </span></div>
+    <div  class="d"style="font-size:20px; margin-top:300px;margin-left:500px;">
+   <center><label>name<label>
+    <input type="name"><gab>
+   <div style="margin-left:-65px;"><label>pohne number</label>
+    <input type="number"><br>
+    <div style="margin-left:70px;"><label>OTP:</label>
+    <input type="number">
+    <br><br>
+   </div>
+    <span style="margin-left:130px;"><button type="button" onclick="alert('taxi has been booked')">book</button>
+   </span>
+    </center>
+</div>
+    </div>
+    </from>
+    
+    <body>
+    </html>
